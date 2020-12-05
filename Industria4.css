@@ -1,0 +1,478 @@
+/*FORMATAÇÃO DO CABEÇALHO (HEADER)*/
+*{
+    font-family: 'Grandstander', cursive;
+}
+
+body{
+    background: rgb(187, 250, 250);
+}
+
+
+
+
+
+
+hr{
+    color: black;
+     
+}
+
+p{
+    text-align: justify;
+    font-size: 17px;
+}
+header{
+    background-color: rgb(80, 153, 153);
+    text-align: center;
+    font-size: 2em;
+    
+}
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 20px;
+    font-family: 'Architects Daughter', cursive;
+    margin-right: 134px;
+
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+h1:hover{
+    transform: scale(1.2);
+}
+
+@keyframes titulo{
+    0% {color: black; letter-spacing: 2px;}
+    50% {color: greenyellow; letter-spacing: 8px;}
+    100% {color: blue; letter-spacing: 2px;}
+}
+
+#ig_topo{
+    width: 16%;
+    
+    float: left;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*FORMATAÇÃO DO MANU (NAV)*/
+nav{
+    background-color: black;
+    padding: 2px 0px 2px 0px;
+   
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration: underline black;
+}
+
+nav ul li:hover{
+    background: lightgrey;
+    
+}
+
+#CPS{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+
+li{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*FORMATAÇÃO DA SECTION TABELA*/
+font{
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+}
+
+table tr th img{
+    width: 200px;
+}
+
+.tabela{
+    padding: 0 150px 20px 150px;
+    overflow: hidden; /*posso utilizar este ou no footer utilizar "clear: both;" para corrigir as flutuações. Este último ficou melhor*/
+}
+
+#figTabela1{
+    width: 200px;
+}
+
+#figTabela2{
+    width: 350px;
+    
+}
+
+#figTabela3{
+    width: 350px;
+}
+
+tr{
+    align-items: center;
+}
+
+
+td , p , th{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    text-align: justify;
+    padding: 0 8px 0 8px;
+}
+
+th{
+    width: 350px;
+}
+
+th h3{
+    margin: 18px 0px 18px 0px;
+    background-color: rgb(189, 184, 172);
+    padding: 5px 0 5px 0;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+iframe:hover{
+    transform: scale(1.1);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*FORMATAÇÃO DO ARTICLE*/
+
+main{
+    padding: 0 150px 0px 150px;
+    overflow: hidden; /*posso utilizar este ou no footer utilizar "clear: both;" para corrigir as flutuações. Este último ficou melhor*/
+}
+
+article{
+    float: left;
+    width: 750px;
+}
+
+
+
+#titulo-article{
+    text-align: left;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+#titulo-article h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px;
+}
+
+#robo{
+    float: right;
+    width: 35%;
+    height: 35%;
+
+}
+
+.img_tamanho_pequeno{
+    width: 10%;
+    height: 10%;
+    margin: 0px 30px 0px 0px;
+}
+
+
+.principios{
+    margin-bottom: 10px;
+    overflow: hidden;
+    
+}
+.principios img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 25px;
+    
+}
+
+.principios h2{
+    margin-bottom: 10px;
+    margin-block-start: 5px;
+    text-align: center; 
+    background-color: rgb(189, 184, 172);
+    padding: 3px 0 3px 0;
+}
+
+.principios p{
+    text-align: justify;
+}
+
+h3{
+    margin-block-start: 10px;
+}
+
+.altura-do-bloco{
+    height: 200px;
+}
+
+.principios .altura-do-bloco p a:link{
+    color: red;
+}
+
+.principios .altura-do-bloco p a:visited{
+    color: green;
+}
+
+.principios .altura-do-bloco p a:hover{
+    color:hotpink;
+}
+
+.principios .altura-do-bloco p a:active{
+    color: blue;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*FORMATAÇÃO DA ASIDE*/
+aside{
+    float: right;
+    /*height: 1744.2px;*/
+    height:auto;
+    width: 447px;
+}
+
+aside .diversos{
+    height: auto;
+    width: 447px;
+    
+}
+
+aside .diversos1{
+    height: 300px;
+    width: 447px;
+    
+}
+
+aside .diversos iframe{
+    height: 248px;
+    width: 90%;
+    padding: 6px 0 6px 25px
+}
+
+aside .diversos img{
+    padding-left: 80px;
+}
+
+aside .diversos1 iframe{
+    height: 248px;
+    width: 90%;
+    padding: 6px 0 6px 25px
+}
+
+aside .diversos1 img{
+    width: 350px;
+    height: 300px;
+    padding-left: 48.5px;
+    padding-right: 48.5px;
+}
+
+aside .diversos h2{
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    background-color: yellowgreen;
+    color: white;
+    margin-block-start: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+aside .diversos1 a h3{
+    text-align: center;
+    color: black;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    margin: 5px 38px 0 38px;
+
+}
+
+aside .diversos1 a{
+    text-decoration: none;
+}
+
+aside .diversos1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+aside .diversos1 a h3:hover{
+    color: brown;
+}
+
+#cal_cor{
+    background-color: yellow;
+}
+
+#lado_esq{
+    
+    width: 49%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#box1, #box2{
+    font-size: 18px;
+    height: 25px;
+    text-align: center;
+}
+
+#lado_dir{
+    
+    width: 49%;
+    height: auto;
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+}
+
+    
+section #sinais{
+    
+    clear: both;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.button_sinal{
+    border:2px solid blue;
+    font-size: 18px;
+    text-align:center;
+    width: 34.8px;
+    height: 34.8px;
+    cursor: pointer;
+}
+
+ 
+.button_sinal:hover{
+    background: black;
+    transform: scale(1.2);
+    color: white;
+}
+
+
+.minha_foto{
+    width: 14%;
+    height: 14%;
+    float: left;
+    padding-right: 10px;
+    
+}
+
+#apresentacao{
+    text-align: justify;
+    width: 80%;
+    height: 80%;    
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+#comentario{
+    height: 400px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+}
+
+.padrao{
+    display: block;
+    text-align: center;
+}
+
+#box{
+    height: 100px;
+    width: 50%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#box_2, #box_3{
+    height: 30px;
+    width: 50%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao{
+    width: 15%;
+    background: darkgray;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#botao:hover{
+    color:white;
+    background: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*FORMATAÇÃO DO RODAPÉ*/
+footer{
+    background-color: aqua;
+    /*clear: both; */ /*Correção da flutuação envolvendo o article/aside e footer*/
+    height: auto;
+}
+
+footer p{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
